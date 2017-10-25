@@ -18,7 +18,7 @@ public class Test1 extends Application{
 				try{
 					while(true){
 						if(lalText.getText().trim().length()==0)
-							text="·¢ÅÆ";
+							text="Hello";
 						else
 							text="";
 						Platform.runLater(new Runnable(){
